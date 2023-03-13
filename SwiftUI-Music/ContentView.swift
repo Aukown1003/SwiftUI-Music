@@ -14,8 +14,21 @@ struct ContentView: View {
                 .resizable()
                 .ignoresSafeArea()
                 .scaledToFill()
+            
+            HStack{
+                Button {
+                    
+                } label: {
+                    Image("cymbal")
+                }
+                
+                Button {
+                    
+                } label: {
+                    Image("guitar")
+                }
+            }
         }
-        
     }
 }
 
