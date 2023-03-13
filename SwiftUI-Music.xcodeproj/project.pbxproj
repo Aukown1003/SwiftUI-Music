@@ -11,6 +11,8 @@
 		00022A5D29BF1E7800681E91 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00022A5C29BF1E7800681E91 /* ContentView.swift */; };
 		00022A5F29BF1E7900681E91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00022A5E29BF1E7900681E91 /* Assets.xcassets */; };
 		00022A6229BF1E7900681E91 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00022A6129BF1E7900681E91 /* Preview Assets.xcassets */; };
+		00022A6929BF257300681E91 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00022A6829BF257300681E91 /* SoundPlayer.swift */; };
+		00022A6B29BF2BFC00681E91 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00022A6A29BF2BFC00681E91 /* BackgroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		00022A5C29BF1E7800681E91 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		00022A5E29BF1E7900681E91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00022A6129BF1E7900681E91 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		00022A6829BF257300681E91 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		00022A6A29BF2BFC00681E91 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				00022A5A29BF1E7800681E91 /* SwiftUI_MusicApp.swift */,
 				00022A5C29BF1E7800681E91 /* ContentView.swift */,
+				00022A6A29BF2BFC00681E91 /* BackgroundView.swift */,
+				00022A6829BF257300681E91 /* SoundPlayer.swift */,
 				00022A5E29BF1E7900681E91 /* Assets.xcassets */,
 				00022A6029BF1E7900681E91 /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				00022A5D29BF1E7800681E91 /* ContentView.swift in Sources */,
+				00022A6929BF257300681E91 /* SoundPlayer.swift in Sources */,
+				00022A6B29BF2BFC00681E91 /* BackgroundView.swift in Sources */,
 				00022A5B29BF1E7800681E91 /* SwiftUI_MusicApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
